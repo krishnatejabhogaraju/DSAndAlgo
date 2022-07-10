@@ -3,7 +3,7 @@ package com.dsandalgo.patternsearching;
 public class NaivePatternSearch {
 
 	public static void main(String[] args) {
-		String text = "AABABC";
+		String text = "AABABCABC";
 		String pattern = "AB";
 
 		NaivePatternSearch naviePatternSearch = new NaivePatternSearch();
