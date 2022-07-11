@@ -1,4 +1,4 @@
-package com.dsandalgo.patternsearching;
+package com.dsandalgo.algorithm.patternsearching;
 
 public class NaivePatternSearch {
 
