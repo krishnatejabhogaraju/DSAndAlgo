@@ -1,5 +1,7 @@
 package com.dsandalgo.datastructures.tree;
 
+import com.dsandalgo.datastructures.tree.CheckForBST.Node;
+
 public class BinarySearchTreeImplementation {
 
 	class Node {
@@ -67,7 +69,10 @@ public class BinarySearchTreeImplementation {
 		tree.insert(60);
 		tree.insert(80);
 
+		tree.root.key = 1;
+
 		tree.inOrderTraversal(tree.root);
+
 	}
 
 }
